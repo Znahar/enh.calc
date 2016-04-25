@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/ItemType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select ItemType"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/ItemLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enh Level"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/FailEnhancement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fail enhancement" />
+    <LinearLayout
+        android:id="@+id/historyScroll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/historystack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/EnhancementHistory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="history text" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/chanceGraph"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/SwitchLayout"
+        android:layout_columnSpan="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch to Log" />
+</LinearLayout>
