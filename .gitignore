@@ -2,4 +2,5 @@
 **/obj/
 packages
 **/.suo
-**/*.dll**/*.obj
+**/*.dll
+**/*.obj
