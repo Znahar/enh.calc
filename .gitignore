@@ -4,3 +4,5 @@ packages
 **/.suo
 **/*.dll
 **/*.obj
+**/*.o
+*.orig
