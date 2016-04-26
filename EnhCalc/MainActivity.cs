@@ -33,6 +33,7 @@ namespace EnhCalc
         protected override void OnCreate(Bundle bundle)
         {
             //start
+            //start!!
             base.OnCreate(bundle);
             ActionBar.Hide();
             Log("Start...");
